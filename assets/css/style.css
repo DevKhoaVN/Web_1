@@ -5,6 +5,10 @@
 html {
   font-size: 62.5%;
 }
+:root {
+  --font-heading: "Sen", sans-serif;
+  --yellow-color: #ffb900;
+}
 
 body {
   font-size: 1.6rem;
@@ -77,4 +81,165 @@ a {
 .btn--signup {
   margin-left: 49px;
   min-width: 144px;
+}
+
+/* hero */
+
+.hero {
+  padding: 56px 0 65px;
+  background: #fffcf4;
+}
+.hero .body {
+  display: flex;
+}
+/* hero left */
+.hero .media-block {
+  position: relative;
+  width: 48%;
+}
+.hero .content-block {
+  width: 52%;
+}
+
+.hero .hero-summary {
+  position: absolute;
+  padding: 24px;
+  width: 270px;
+  height: 244px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+  bottom: 48px;
+  right: -40px;
+}
+.hero .item {
+  display: flex;
+  align-items: center;
+}
+.hero .item + .item {
+  margin-top: 16px;
+}
+
+.hero .icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  fill: #fff9e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .infor .lable {
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 186%; /* 185.714% */
+}
+
+.hero .infor .title {
+  color: #171100;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 166%; /* 166.667% */
+}
+
+.hero-summary .icon2 {
+  background-color: #fcefff;
+}
+
+.hero-summary .icon2 {
+  background-color: #ebeaff;
+}
+
+.hero-summary .infor {
+  margin-left: 16px;
+}
+
+/* hero right */
+.content-block {
+  margin-left: 130px;
+}
+.content-block .heading {
+  width: 470px;
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 5.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117%; /* 117.241% */
+  letter-spacing: -1.16px;
+  margin-top: 64px;
+}
+
+.content-block .desc {
+  width: 470px;
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166%; /* 166.667% */
+  margin-top: 22px;
+}
+
+.content-block .cta {
+  display: flex;
+  margin-top: 38px;
+  margin-bottom: 48px;
+}
+
+.btn.btn--seecourse {
+  min-width: 180px;
+  line-height: 64px;
+  border-radius: 32px;
+  background: #ffb900;
+}
+
+.content-block .watch-video {
+  display: flex;
+  margin-left: 28px;
+  border: none;
+  background: transparent;
+}
+
+.watch-video .icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  margin-right: 14px;
+  align-self: center;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.07);
+}
+
+.watch-video span {
+  width: 14.8rem;
+  color: #171100;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 166%; /* 166.667% */
+  align-self: center;
+}
+
+.view {
+  display: flex;
+}
+.view strong {
+  color: #171100;
+  font-family: Sen;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px; /* 122.727% */
+}
+
+.view p:first-child {
+  margin-right: 28px;
 }
